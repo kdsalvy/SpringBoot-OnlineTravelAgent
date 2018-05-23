@@ -12,8 +12,6 @@ import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
 import javax.persistence.Version;
 
-import org.hibernate.annotations.Formula;
-
 @Entity
 @Table(uniqueConstraints = @UniqueConstraint(columnNames = { "type", "hotel_id" }))
 public class Room {
